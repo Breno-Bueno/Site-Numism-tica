@@ -1,0 +1,369 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4ece4 url('https://www.transparenttextures.com/patterns/wood.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #5a3e36;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+    background: #d4b79f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #8b5e3c;
+}
+
+.subtitle {
+    font-size: 0.9em;
+    color: #705042;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5a3e36;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b08e79;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #f8f0e8;
+    color: #5a3e36;
+}
+
+form input::placeholder {
+    color: #a68c7c;
+}
+
+form button {
+    background: #8b5e3c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #704d32;
+}
+
+.register {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #5a3e36;
+}
+
+.register a {
+    color: #8b5e3c;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fdf3f3;
+}
+
+.history-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Estilizando a imagem de fundo */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* Criando a sobreposição */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo escuro translúcido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilizando o cabeçalho */
+.header {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #10100f;
+    
+}
+
+.header nav {
+    margin-top: 10px;
+    
+}
+
+.header .back-button {
+    font-size: 1em;
+    color: #0f0f0e;
+    text-decoration: none;
+}
+
+.header .back-button:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando o conteúdo */
+.content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.content section {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #8b5e3c;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #f4ece4;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .content h2 {
+        font-size: 1.2em;
+    }
+
+    .content p {
+        font-size: 0.9em;
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4ece4;
+    color: #5a3e36;
+}
+
+h1, h2 {
+    color: #8b5e3c;
+}
+
+a {
+    text-decoration: none;
+    color: #8b5e3c;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da página de login */
+.login-container, .history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: #d4b79f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Estilo da página de história */
+.header {
+    background: #8b5e3c;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4ece4;
+    color: #5a3e36;
+}
+
+h1, h2 {
+    color: #8b5e3c;
+}
+
+a {
+    text-decoration: none;
+    color: #8b5e3c;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Página de Registro */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.header {
+    background: #8b5e3c;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.register-box {
+    background: #d4b79f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 0.9em;
+    color: #705042;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5a3e36;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b08e79;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #f8f0e8;
+    color: #5a3e36;
+}
+
+form input::placeholder {
+    color: #a68c7c;
+}
+
+form button {
+    background: #8b5e3c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #704d32;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #d4b79f;
+    color: #5a3e36;
+    width: 100%;
+}
